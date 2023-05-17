@@ -1,0 +1,140 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #efdafa;
+}
+
+/* Header styles */
+header {
+  background-color: #8e0eff;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #bb5ffd;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #c368ff;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Form styles */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #5271ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2a4fde;
+}
+
+/* Footer styles */
+footer {
+  background-color: #5271ff;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.faculty-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.faculty-member {
+  flex-basis: calc(33.33% - 10px);
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.faculty-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.faculty-member h3 {
+  font-size: 24px;
+  margin: 0;
+  align-items: flex-start;
+}
+
+.faculty-member p {
+  font-size: 16px;
+  margin: 5px 0 0;
+  align-items: flex-start;
+}
